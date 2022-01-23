@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Changa";
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #3df5a8;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    height: 5rem;
+    z-index: 1;
+    display: flex;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 120px;
+    padding-top: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 700;
+    margin-left: 30px;
+    transition: 1s;
+}
+
+.navbar {
+    margin-top: 10px;
+    margin-left: 700px;
+}
+
+.header a:hover {
+    color: black;
+}
+
+.container {
+    width: 1200px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.container:hover {
+    box-shadow: 0 0 4px 10px #3df5a8;
+}
+
+.row {
+    display: flex;
+}
+
+.blog-photo {
+    margin-right: 20px;
+}
+
+.blog-photo img {
+    width: 400px;
+    height: 300px;
+}
+
+.blog-content span {
+    font-size: 22px;
+}
+
+.blog-content a {
+    text-decoration: none;
+    color: #1687a7;
+    font-size: 32px;
+}
+
+.blog-content a:hover {
+    color: #3df5a8;
+}
+
+.paragraph {
+    width: 700px;
+    font-size: 20px;
+}
+
+.footer {
+    padding: 1rem;
+    background: #3df5a8;
+    background-size: cover;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Changa";
+}
+
+.footer h1 {
+    color: #fff;
+    font-size: 21px;
+}
+
+@media screen and (max-width: 720px) {
+    .container {
+        margin-left: 40px;
+    }
+}

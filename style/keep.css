@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Changa";
+}
+
+.verif {
+    position: absolute;
+    left: 35%;
+    transition: 5.2s;
+}
+
+.verif img {
+    width: 400px;
+    height: 400px;
+}
+
+.text {
+    position: absolute;
+    left: 36%;
+    bottom: 38%;
+    transition: 5.2s;
+}
+
+.text h4 {
+    font-size: 27px;
+    color: #3df5a8;
+}

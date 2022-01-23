@@ -1,0 +1,188 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Changa';
+}
+
+.header {
+	text-align: center;
+	background-color: #3df5a8;
+	padding: 16px;
+	color: white;
+	font-size: 21px;
+}
+
+.logo {
+	position: relative;
+	left: 39%;
+	width: 400px;
+	height: 400px;
+}
+
+.logo img {
+	width: 300px;
+	height: 300px;
+}
+
+.box {
+	width: 400px;
+	height: 120px;
+	position: absolute;
+	left: 43%;
+	bottom: 16%;
+}
+
+.finput>input {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	color: #333;
+	font-size: 14px;
+	margin-bottom: 15px;
+	padding: 0.5em 1em 0.5em 0;
+	width: 200px;
+}
+
+.finput input[type="text"]:focus,
+.finput textarea:focus {
+	border-bottom: 1px solid #000;
+	outline: none;
+}
+
+.row {
+	display: flex;
+	position: absolute;
+	left: 40%;
+	bottom: 12%;
+}
+
+.link {
+	width: 120px;
+	height: 40px;
+	background-color: #3df5a8;
+	text-align: center;
+	margin-right: 60px;
+}
+
+.link a {
+	text-decoration: none;
+	color: white;
+}
+
+.link button {
+	border: none;
+	background-color: #3df5a8;
+	color: white;
+	font-family: 'Changa';
+	font-size: 20px;
+}
+
+.button {
+	width: 120px;
+	height: 40px;
+	background-color: #3df5a8;
+	text-align: center;
+}
+
+.button button {
+	border: none;
+	background-color: #3df5a8;
+	color: white;
+	font-family: 'Changa';
+	font-size: 20px;
+}
+
+@media screen and (min-width: 720px) {
+	body {
+		padding: 0;
+		margin: 0;
+		font-family: 'Changa';
+	}
+
+	.header {
+		text-align: center;
+		background-color: #3df5a8;
+		padding: 16px;
+		color: white;
+		font-size: 21px;
+	}
+
+	.logo {
+		position: relative;
+		left: 39%;
+		width: 400px;
+		height: 400px;
+	}
+
+	.logo img {
+		width: 300px;
+		height: 300px;
+	}
+
+	.box {
+		width: 400px;
+		height: 120px;
+		position: absolute;
+		left: 43%;
+		bottom: 16%;
+	}
+
+	.finput>input {
+		border: none;
+		border-bottom: 1px solid #ddd;
+		color: #333;
+		font-size: 14px;
+		margin-bottom: 15px;
+		padding: 0.5em 1em 0.5em 0;
+		width: 200px;
+	}
+
+	.finput input[type="text"]:focus,
+	.finput textarea:focus {
+		border-bottom: 1px solid #000;
+		outline: none;
+	}
+
+	.row {
+		display: flex;
+		position: absolute;
+		left: 40%;
+		bottom: 12%;
+	}
+
+	.link {
+		width: 120px;
+		height: 40px;
+		background-color: #3df5a8;
+		text-align: center;
+		margin-right: 60px;
+	}
+
+	.link a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.link button {
+		border: none;
+		background-color: #3df5a8;
+		color: white;
+		font-family: 'Changa';
+		font-size: 20px;
+	}
+
+	.button {
+		width: 120px;
+		height: 40px;
+		background-color: #3df5a8;
+		text-align: center;
+	}
+
+	.button button {
+		border: none;
+		background-color: #3df5a8;
+		color: white;
+		font-family: 'Changa';
+		font-size: 20px;
+	}
+
+}
